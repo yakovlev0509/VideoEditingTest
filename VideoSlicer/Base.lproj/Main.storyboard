@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J2c-7J-JL6">
+                                <rect key="frame" x="33" y="564" width="129" height="33"/>
+                                <color key="backgroundColor" red="0.36470588240000001" green="0.78039215689999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="HLa-hy-lfk"/>
+                                    <constraint firstAttribute="width" constant="129" id="JcA-Ch-JDh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="play">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="onPlayPause:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jvJ-Tb-EQa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2i2-1S-MOv">
+                                <rect key="frame" x="213" y="563" width="129" height="34"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="41l-k1-czK"/>
+                                    <constraint firstAttribute="width" constant="129" id="cQ8-MC-xOX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="stop">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="onStop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dRk-Ra-44N"/>
+                                </connections>
+                            </button>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mkn-aa-hu6">
+                                <rect key="frame" x="0.0" y="64" width="375" height="453"/>
+                                <subviews>
+                                    <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="dYP-Ia-at4">
+                                        <rect key="frame" x="169" y="208" width="37" height="37"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="37" id="Xil-YW-2lI"/>
+                                            <constraint firstAttribute="width" constant="37" id="jkK-bO-GhU"/>
+                                        </constraints>
+                                    </activityIndicatorView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="dYP-Ia-at4" firstAttribute="centerX" secondItem="Mkn-aa-hu6" secondAttribute="centerX" id="7lV-vN-bR7"/>
+                                    <constraint firstAttribute="width" secondItem="Mkn-aa-hu6" secondAttribute="height" multiplier="125:120" constant="-96.875000000000057" id="BFr-WY-xf7"/>
+                                    <constraint firstItem="dYP-Ia-at4" firstAttribute="centerY" secondItem="Mkn-aa-hu6" secondAttribute="centerY" id="FPB-az-NyM"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Mkn-aa-hu6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="F3q-38-P7E"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2i2-1S-MOv" secondAttribute="bottom" constant="70" id="LUX-TE-2TV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="J2c-7J-JL6" secondAttribute="bottom" constant="70" id="O4I-Ko-73h"/>
+                            <constraint firstItem="J2c-7J-JL6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-90" id="h6z-tm-gep"/>
+                            <constraint firstItem="2i2-1S-MOv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="90" id="mDz-DF-QOG"/>
+                            <constraint firstItem="Mkn-aa-hu6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="44" id="oTv-LP-5Ht"/>
+                            <constraint firstItem="Mkn-aa-hu6" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="wIc-il-BBH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="activityView" destination="dYP-Ia-at4" id="3eM-30-JHy"/>
+                        <outlet property="playPauseButton" destination="J2c-7J-JL6" id="ZU0-zq-ivU"/>
+                        <outlet property="playerView" destination="Mkn-aa-hu6" id="rVi-MO-4U6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
