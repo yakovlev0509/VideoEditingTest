@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		831E292E21886B1B00A7D06C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 831E292D21886B1B00A7D06C /* AppDelegate.m */; };
+		831E293121886B1B00A7D06C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 831E293021886B1B00A7D06C /* ViewController.m */; };
+		831E293421886B1B00A7D06C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 831E293221886B1B00A7D06C /* Main.storyboard */; };
+		831E293621886B1D00A7D06C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831E293521886B1D00A7D06C /* Assets.xcassets */; };
+		831E293921886B1D00A7D06C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 831E293721886B1D00A7D06C /* LaunchScreen.storyboard */; };
+		831E293C21886B1D00A7D06C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 831E293B21886B1D00A7D06C /* main.m */; };
+		8323DFE721899EE700851F60 /* FilterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8323DFE621899EE700851F60 /* FilterManager.m */; };
+		8323DFE92189A5BF00851F60 /* FGCineBasic.cube in Resources */ = {isa = PBXBuildFile; fileRef = 8323DFE82189A5BF00851F60 /* FGCineBasic.cube */; };
+		8323E0B52189BC2E00851F60 /* LUTFormatterOLUT.m in Sources */ = {isa = PBXBuildFile; fileRef = 8323E0672189BC2E00851F60 /* LUTFormatterOLUT.m */; };
+		8323E0B62189BC2E00851F60 /* LUTFormatterQuantel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8323E0682189BC2E00851F60 /* LUTFormatterQuantel.m */; };
+		8323E0B72189BC2E00851F60 /* GPUImageCocoaLUTFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8323E0692189BC2E00851F60 /* GPUImageCocoaLUTFilter.m */; };
+		8323E0B82189BC2E00851F60 /* LUT3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 8323E06B2189BC2E00851F60 /* LUT3D.m */; };
+		8323E0B92189BC2E00851F60 /* LUTPreviewScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8323E06E2189BC2E00851F60 /* LUTPreviewScene.m */; };
+		8323E0BA2189BC2E00851F60 /* LUTColorTransferFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 8323E06F2189BC2E00851F60 /* LUTColorTransferFunction.m */; };
+		8323E0BB2189BC2E00851F60 /* LUTProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8323E0712189BC2E00851F60 /* LUTProcessor.m */; };
+		8323E0BC2189BC2E00851F60 /* LUTHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8323E0722189BC2E00851F60 /* LUTHelper.m */; };
+		8323E0BD2189BC2E00851F60 /* LUT.m in Sources */ = {isa = PBXBuildFile; fileRef = 8323E0752189BC2E00851F60 /* LUT.m */; };
+		8323E0C32189BC2E00851F60 /* LUTFormatterMatchLight.m in Sources */ = {isa = PBXBuildFile; fileRef = 8323E0822189BC2E00851F60 /* LUTFormatterMatchLight.m */; };
+		8323E0C42189BC2E00851F60 /* LUTFormatterHaldCLUT.m in Sources */ = {isa = PBXBuildFile; fileRef = 8323E0842189BC2E00851F60 /* LUTFormatterHaldCLUT.m */; };
+		8323E0C52189BC2E00851F60 /* LUTAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 8323E0852189BC2E00851F60 /* LUTAction.m */; };
+		8323E0C62189BC2E00851F60 /* LUTFormatterILUT.m in Sources */ = {isa = PBXBuildFile; fileRef = 8323E0862189BC2E00851F60 /* LUTFormatterILUT.m */; };
+		8323E0C72189BC2E00851F60 /* LUTFormatterUnwrappedTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 8323E0872189BC2E00851F60 /* LUTFormatterUnwrappedTexture.m */; };
+		8323E0C82189BC2E00851F60 /* LUTFormatterResolveDAT.m in Sources */ = {isa = PBXBuildFile; fileRef = 8323E0882189BC2E00851F60 /* LUTFormatterResolveDAT.m */; };
+		8323E0C92189BC2E00851F60 /* LUTRecipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8323E0892189BC2E00851F60 /* LUTRecipe.m */; };
+		8323E0CA2189BC2E00851F60 /* LUTFormatterCMSTestPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 8323E08B2189BC2E00851F60 /* LUTFormatterCMSTestPattern.m */; };
+		8323E0CB2189BC2E00851F60 /* LUTReverser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8323E08D2189BC2E00851F60 /* LUTReverser.m */; };
+		8323E0CC2189BC2E00851F60 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 8323E0912189BC2E00851F60 /* .gitkeep */; };
+		8323E0CD2189BC2E00851F60 /* LUTFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8323E0922189BC2E00851F60 /* LUTFormatter.m */; };
+		8323E0CE2189BC2E00851F60 /* LUTFormatterDiscreet1DLUT.m in Sources */ = {isa = PBXBuildFile; fileRef = 8323E0942189BC2E00851F60 /* LUTFormatterDiscreet1DLUT.m */; };
+		8323E0CF2189BC2E00851F60 /* LUTFormatterClipster.m in Sources */ = {isa = PBXBuildFile; fileRef = 8323E0972189BC2E00851F60 /* LUTFormatterClipster.m */; };
+		8323E0D02189BC2E00851F60 /* LUTColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8323E0982189BC2E00851F60 /* LUTColor.m */; };
+		8323E0D12189BC2E00851F60 /* LUTFormatterImageBased.m in Sources */ = {isa = PBXBuildFile; fileRef = 8323E09A2189BC2E00851F60 /* LUTFormatterImageBased.m */; };
+		8323E0D22189BC2E00851F60 /* LUTColorSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 8323E09D2189BC2E00851F60 /* LUTColorSpace.m */; };
+		8323E0D32189BC2E00851F60 /* LUTFormatterFSIDAT.m in Sources */ = {isa = PBXBuildFile; fileRef = 8323E09F2189BC2E00851F60 /* LUTFormatterFSIDAT.m */; };
+		8323E0D42189BC2E00851F60 /* LUTFormatterNucodaCMS.m in Sources */ = {isa = PBXBuildFile; fileRef = 8323E0A22189BC2E00851F60 /* LUTFormatterNucodaCMS.m */; };
+		8323E0D52189BC2E00851F60 /* LUTColorSpaceWhitePoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8323E0A32189BC2E00851F60 /* LUTColorSpaceWhitePoint.m */; };
+		8323E0D62189BC2E00851F60 /* LUTFormatterDaVinciDAVLUT.m in Sources */ = {isa = PBXBuildFile; fileRef = 8323E0A52189BC2E00851F60 /* LUTFormatterDaVinciDAVLUT.m */; };
+		8323E0D72189BC2E00851F60 /* LUTFormatter3DL.m in Sources */ = {isa = PBXBuildFile; fileRef = 8323E0AB2189BC2E00851F60 /* LUTFormatter3DL.m */; };
+		8323E0D82189BC2E00851F60 /* LUT1D.m in Sources */ = {isa = PBXBuildFile; fileRef = 8323E0AD2189BC2E00851F60 /* LUT1D.m */; };
+		8323E0D92189BC2E00851F60 /* LUTMetadataFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8323E0B02189BC2E00851F60 /* LUTMetadataFormatter.m */; };
+		8323E0DA2189BC2E00851F60 /* LUTFormatterArriLook.m in Sources */ = {isa = PBXBuildFile; fileRef = 8323E0B12189BC2E00851F60 /* LUTFormatterArriLook.m */; };
+		8323E0DB2189BC2E00851F60 /* LUTFormatterCube.m in Sources */ = {isa = PBXBuildFile; fileRef = 8323E0B32189BC2E00851F60 /* LUTFormatterCube.m */; };
+		8323E0E12189CFEE00851F60 /* FG_CineDrama.cube in Resources */ = {isa = PBXBuildFile; fileRef = 8323E0DF2189CFEE00851F60 /* FG_CineDrama.cube */; };
+		8323E0E22189CFEE00851F60 /* FG_CineTeal&Orange2.cube in Resources */ = {isa = PBXBuildFile; fileRef = 8323E0E02189CFEE00851F60 /* FG_CineTeal&Orange2.cube */; };
+		83649C30218894260084F630 /* VideoEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 83649C2F218894260084F630 /* VideoEditor.m */; };
+		83649C352188A0B60084F630 /* VideoComposer.m in Sources */ = {isa = PBXBuildFile; fileRef = 83649C342188A0B60084F630 /* VideoComposer.m */; };
+		83649C372188BD340084F630 /* VideoFile.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 83649C362188BD340084F630 /* VideoFile.mp4 */; };
+		D1466C70C1C77FC93828D044 /* libPods-VideoSlicer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 702DD1A9ED5B66540C4161FC /* libPods-VideoSlicer.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		702DD1A9ED5B66540C4161FC /* libPods-VideoSlicer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VideoSlicer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		831E292921886B1B00A7D06C /* VideoSlicer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoSlicer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		831E292C21886B1B00A7D06C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		831E292D21886B1B00A7D06C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		831E292F21886B1B00A7D06C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		831E293021886B1B00A7D06C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		831E293321886B1B00A7D06C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		831E293521886B1D00A7D06C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		831E293821886B1D00A7D06C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		831E293A21886B1D00A7D06C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		831E293B21886B1D00A7D06C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8323DFE521899EE700851F60 /* FilterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterManager.h; sourceTree = "<group>"; };
+		8323DFE621899EE700851F60 /* FilterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterManager.m; sourceTree = "<group>"; };
+		8323DFE82189A5BF00851F60 /* FGCineBasic.cube */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FGCineBasic.cube; sourceTree = "<group>"; };
+		8323E0612189B6B700851F60 /* VideoSlicer-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VideoSlicer-PrefixHeader.pch"; sourceTree = "<group>"; };
+		8323E0662189BC2E00851F60 /* LUTColorSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUTColorSpace.h; sourceTree = "<group>"; };
+		8323E0672189BC2E00851F60 /* LUTFormatterOLUT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUTFormatterOLUT.m; sourceTree = "<group>"; };
+		8323E0682189BC2E00851F60 /* LUTFormatterQuantel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUTFormatterQuantel.m; sourceTree = "<group>"; };
+		8323E0692189BC2E00851F60 /* GPUImageCocoaLUTFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageCocoaLUTFilter.m; sourceTree = "<group>"; };
+		8323E06A2189BC2E00851F60 /* LUTFormatterImageBased.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUTFormatterImageBased.h; sourceTree = "<group>"; };
+		8323E06B2189BC2E00851F60 /* LUT3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUT3D.m; sourceTree = "<group>"; };
+		8323E06C2189BC2E00851F60 /* LUTFormatterClipster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUTFormatterClipster.h; sourceTree = "<group>"; };
+		8323E06D2189BC2E00851F60 /* LUTColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUTColor.h; sourceTree = "<group>"; };
+		8323E06E2189BC2E00851F60 /* LUTPreviewScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUTPreviewScene.m; sourceTree = "<group>"; };
+		8323E06F2189BC2E00851F60 /* LUTColorTransferFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUTColorTransferFunction.m; sourceTree = "<group>"; };
+		8323E0702189BC2E00851F60 /* LUTFormatterDiscreet1DLUT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUTFormatterDiscreet1DLUT.h; sourceTree = "<group>"; };
+		8323E0712189BC2E00851F60 /* LUTProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUTProcessor.m; sourceTree = "<group>"; };
+		8323E0722189BC2E00851F60 /* LUTHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUTHelper.m; sourceTree = "<group>"; };
+		8323E0732189BC2E00851F60 /* LUTFormatterNucodaCMS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUTFormatterNucodaCMS.h; sourceTree = "<group>"; };
+		8323E0742189BC2E00851F60 /* LUTColorSpaceWhitePoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUTColorSpaceWhitePoint.h; sourceTree = "<group>"; };
+		8323E0752189BC2E00851F60 /* LUT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUT.m; sourceTree = "<group>"; };
+		8323E0802189BC2E00851F60 /* LUTFormatterFSIDAT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUTFormatterFSIDAT.h; sourceTree = "<group>"; };
+		8323E0812189BC2E00851F60 /* LUT1D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUT1D.h; sourceTree = "<group>"; };
+		8323E0822189BC2E00851F60 /* LUTFormatterMatchLight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUTFormatterMatchLight.m; sourceTree = "<group>"; };
+		8323E0832189BC2E00851F60 /* LUTFormatter3DL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUTFormatter3DL.h; sourceTree = "<group>"; };
+		8323E0842189BC2E00851F60 /* LUTFormatterHaldCLUT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUTFormatterHaldCLUT.m; sourceTree = "<group>"; };
+		8323E0852189BC2E00851F60 /* LUTAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUTAction.m; sourceTree = "<group>"; };
+		8323E0862189BC2E00851F60 /* LUTFormatterILUT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUTFormatterILUT.m; sourceTree = "<group>"; };
+		8323E0872189BC2E00851F60 /* LUTFormatterUnwrappedTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUTFormatterUnwrappedTexture.m; sourceTree = "<group>"; };
+		8323E0882189BC2E00851F60 /* LUTFormatterResolveDAT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUTFormatterResolveDAT.m; sourceTree = "<group>"; };
+		8323E0892189BC2E00851F60 /* LUTRecipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUTRecipe.m; sourceTree = "<group>"; };
+		8323E08A2189BC2E00851F60 /* LUTFormatterDaVinciDAVLUT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUTFormatterDaVinciDAVLUT.h; sourceTree = "<group>"; };
+		8323E08B2189BC2E00851F60 /* LUTFormatterCMSTestPattern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUTFormatterCMSTestPattern.m; sourceTree = "<group>"; };
+		8323E08C2189BC2E00851F60 /* LUTFormatterCube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUTFormatterCube.h; sourceTree = "<group>"; };
+		8323E08D2189BC2E00851F60 /* LUTReverser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUTReverser.m; sourceTree = "<group>"; };
+		8323E08E2189BC2E00851F60 /* LUTFormatterArriLook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUTFormatterArriLook.h; sourceTree = "<group>"; };
+		8323E08F2189BC2E00851F60 /* LUTMetadataFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUTMetadataFormatter.h; sourceTree = "<group>"; };
+		8323E0912189BC2E00851F60 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		8323E0922189BC2E00851F60 /* LUTFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUTFormatter.m; sourceTree = "<group>"; };
+		8323E0932189BC2E00851F60 /* LUTProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUTProcessor.h; sourceTree = "<group>"; };
+		8323E0942189BC2E00851F60 /* LUTFormatterDiscreet1DLUT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUTFormatterDiscreet1DLUT.m; sourceTree = "<group>"; };
+		8323E0952189BC2E00851F60 /* LUTColorTransferFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUTColorTransferFunction.h; sourceTree = "<group>"; };
+		8323E0962189BC2E00851F60 /* LUTPreviewScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUTPreviewScene.h; sourceTree = "<group>"; };
+		8323E0972189BC2E00851F60 /* LUTFormatterClipster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUTFormatterClipster.m; sourceTree = "<group>"; };
+		8323E0982189BC2E00851F60 /* LUTColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUTColor.m; sourceTree = "<group>"; };
+		8323E0992189BC2E00851F60 /* LUT3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUT3D.h; sourceTree = "<group>"; };
+		8323E09A2189BC2E00851F60 /* LUTFormatterImageBased.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUTFormatterImageBased.m; sourceTree = "<group>"; };
+		8323E09B2189BC2E00851F60 /* LUTFormatterQuantel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUTFormatterQuantel.h; sourceTree = "<group>"; };
+		8323E09C2189BC2E00851F60 /* GPUImageCocoaLUTFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageCocoaLUTFilter.h; sourceTree = "<group>"; };
+		8323E09D2189BC2E00851F60 /* LUTColorSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUTColorSpace.m; sourceTree = "<group>"; };
+		8323E09E2189BC2E00851F60 /* LUTFormatterOLUT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUTFormatterOLUT.h; sourceTree = "<group>"; };
+		8323E09F2189BC2E00851F60 /* LUTFormatterFSIDAT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUTFormatterFSIDAT.m; sourceTree = "<group>"; };
+		8323E0A02189BC2E00851F60 /* CocoaLUT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaLUT.h; sourceTree = "<group>"; };
+		8323E0A12189BC2E00851F60 /* LUT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUT.h; sourceTree = "<group>"; };
+		8323E0A22189BC2E00851F60 /* LUTFormatterNucodaCMS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUTFormatterNucodaCMS.m; sourceTree = "<group>"; };
+		8323E0A32189BC2E00851F60 /* LUTColorSpaceWhitePoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUTColorSpaceWhitePoint.m; sourceTree = "<group>"; };
+		8323E0A42189BC2E00851F60 /* LUTHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUTHelper.h; sourceTree = "<group>"; };
+		8323E0A52189BC2E00851F60 /* LUTFormatterDaVinciDAVLUT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUTFormatterDaVinciDAVLUT.m; sourceTree = "<group>"; };
+		8323E0A62189BC2E00851F60 /* LUTRecipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUTRecipe.h; sourceTree = "<group>"; };
+		8323E0A72189BC2E00851F60 /* LUTFormatterUnwrappedTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUTFormatterUnwrappedTexture.h; sourceTree = "<group>"; };
+		8323E0A82189BC2E00851F60 /* LUTFormatterResolveDAT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUTFormatterResolveDAT.h; sourceTree = "<group>"; };
+		8323E0A92189BC2E00851F60 /* LUTFormatterILUT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUTFormatterILUT.h; sourceTree = "<group>"; };
+		8323E0AA2189BC2E00851F60 /* LUTAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUTAction.h; sourceTree = "<group>"; };
+		8323E0AB2189BC2E00851F60 /* LUTFormatter3DL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUTFormatter3DL.m; sourceTree = "<group>"; };
+		8323E0AC2189BC2E00851F60 /* LUTFormatterHaldCLUT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUTFormatterHaldCLUT.h; sourceTree = "<group>"; };
+		8323E0AD2189BC2E00851F60 /* LUT1D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUT1D.m; sourceTree = "<group>"; };
+		8323E0AE2189BC2E00851F60 /* LUTFormatterMatchLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUTFormatterMatchLight.h; sourceTree = "<group>"; };
+		8323E0AF2189BC2E00851F60 /* LUTFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUTFormatter.h; sourceTree = "<group>"; };
+		8323E0B02189BC2E00851F60 /* LUTMetadataFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUTMetadataFormatter.m; sourceTree = "<group>"; };
+		8323E0B12189BC2E00851F60 /* LUTFormatterArriLook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUTFormatterArriLook.m; sourceTree = "<group>"; };
+		8323E0B22189BC2E00851F60 /* LUTReverser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUTReverser.h; sourceTree = "<group>"; };
+		8323E0B32189BC2E00851F60 /* LUTFormatterCube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUTFormatterCube.m; sourceTree = "<group>"; };
+		8323E0B42189BC2E00851F60 /* LUTFormatterCMSTestPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUTFormatterCMSTestPattern.h; sourceTree = "<group>"; };
+		8323E0DF2189CFEE00851F60 /* FG_CineDrama.cube */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FG_CineDrama.cube; sourceTree = "<group>"; };
+		8323E0E02189CFEE00851F60 /* FG_CineTeal&Orange2.cube */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FG_CineTeal&Orange2.cube"; sourceTree = "<group>"; };
+		83649C2E218894260084F630 /* VideoEditor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoEditor.h; sourceTree = "<group>"; };
+		83649C2F218894260084F630 /* VideoEditor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoEditor.m; sourceTree = "<group>"; };
+		83649C332188A0B60084F630 /* VideoComposer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoComposer.h; sourceTree = "<group>"; };
+		83649C342188A0B60084F630 /* VideoComposer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoComposer.m; sourceTree = "<group>"; };
+		83649C362188BD340084F630 /* VideoFile.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VideoFile.mp4; sourceTree = "<group>"; };
+		8D2289D97B0CF0C6273737D8 /* Pods-VideoSlicer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoSlicer.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoSlicer/Pods-VideoSlicer.release.xcconfig"; sourceTree = "<group>"; };
+		CE677E8BB216D2F432FE0D75 /* Pods-VideoSlicer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoSlicer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoSlicer/Pods-VideoSlicer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		831E292621886B1B00A7D06C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1466C70C1C77FC93828D044 /* libPods-VideoSlicer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16940C483231F223358C9812 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE677E8BB216D2F432FE0D75 /* Pods-VideoSlicer.debug.xcconfig */,
+				8D2289D97B0CF0C6273737D8 /* Pods-VideoSlicer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		568732CA0E35731F5F6C65AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				702DD1A9ED5B66540C4161FC /* libPods-VideoSlicer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		831E292021886B1B00A7D06C = {
+			isa = PBXGroup;
+			children = (
+				831E292B21886B1B00A7D06C /* VideoSlicer */,
+				831E292A21886B1B00A7D06C /* Products */,
+				16940C483231F223358C9812 /* Pods */,
+				568732CA0E35731F5F6C65AF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		831E292A21886B1B00A7D06C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				831E292921886B1B00A7D06C /* VideoSlicer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		831E292B21886B1B00A7D06C /* VideoSlicer */ = {
+			isa = PBXGroup;
+			children = (
+				8323E0642189BB4200851F60 /* CocoaLut */,
+				83649C3A2188BE1A0084F630 /* Sources */,
+				83649C392188BE120084F630 /* ViewControllers */,
+				83649C382188BDD70084F630 /* VideoProccessing */,
+				831E292C21886B1B00A7D06C /* AppDelegate.h */,
+				831E292D21886B1B00A7D06C /* AppDelegate.m */,
+				831E293221886B1B00A7D06C /* Main.storyboard */,
+				831E293521886B1D00A7D06C /* Assets.xcassets */,
+				831E293721886B1D00A7D06C /* LaunchScreen.storyboard */,
+				831E293A21886B1D00A7D06C /* Info.plist */,
+				831E293B21886B1D00A7D06C /* main.m */,
+				8323E0612189B6B700851F60 /* VideoSlicer-PrefixHeader.pch */,
+			);
+			path = VideoSlicer;
+			sourceTree = "<group>";
+		};
+		8323E0642189BB4200851F60 /* CocoaLut */ = {
+			isa = PBXGroup;
+			children = (
+				8323E0652189BC2E00851F60 /* Classes */,
+			);
+			path = CocoaLut;
+			sourceTree = "<group>";
+		};
+		8323E0652189BC2E00851F60 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8323E0662189BC2E00851F60 /* LUTColorSpace.h */,
+				8323E0672189BC2E00851F60 /* LUTFormatterOLUT.m */,
+				8323E0682189BC2E00851F60 /* LUTFormatterQuantel.m */,
+				8323E0692189BC2E00851F60 /* GPUImageCocoaLUTFilter.m */,
+				8323E06A2189BC2E00851F60 /* LUTFormatterImageBased.h */,
+				8323E06B2189BC2E00851F60 /* LUT3D.m */,
+				8323E06C2189BC2E00851F60 /* LUTFormatterClipster.h */,
+				8323E06D2189BC2E00851F60 /* LUTColor.h */,
+				8323E06E2189BC2E00851F60 /* LUTPreviewScene.m */,
+				8323E06F2189BC2E00851F60 /* LUTColorTransferFunction.m */,
+				8323E0702189BC2E00851F60 /* LUTFormatterDiscreet1DLUT.h */,
+				8323E0712189BC2E00851F60 /* LUTProcessor.m */,
+				8323E0722189BC2E00851F60 /* LUTHelper.m */,
+				8323E0732189BC2E00851F60 /* LUTFormatterNucodaCMS.h */,
+				8323E0742189BC2E00851F60 /* LUTColorSpaceWhitePoint.h */,
+				8323E0752189BC2E00851F60 /* LUT.m */,
+				8323E0802189BC2E00851F60 /* LUTFormatterFSIDAT.h */,
+				8323E0812189BC2E00851F60 /* LUT1D.h */,
+				8323E0822189BC2E00851F60 /* LUTFormatterMatchLight.m */,
+				8323E0832189BC2E00851F60 /* LUTFormatter3DL.h */,
+				8323E0842189BC2E00851F60 /* LUTFormatterHaldCLUT.m */,
+				8323E0852189BC2E00851F60 /* LUTAction.m */,
+				8323E0862189BC2E00851F60 /* LUTFormatterILUT.m */,
+				8323E0872189BC2E00851F60 /* LUTFormatterUnwrappedTexture.m */,
+				8323E0882189BC2E00851F60 /* LUTFormatterResolveDAT.m */,
+				8323E0892189BC2E00851F60 /* LUTRecipe.m */,
+				8323E08A2189BC2E00851F60 /* LUTFormatterDaVinciDAVLUT.h */,
+				8323E08B2189BC2E00851F60 /* LUTFormatterCMSTestPattern.m */,
+				8323E08C2189BC2E00851F60 /* LUTFormatterCube.h */,
+				8323E08D2189BC2E00851F60 /* LUTReverser.m */,
+				8323E08E2189BC2E00851F60 /* LUTFormatterArriLook.h */,
+				8323E08F2189BC2E00851F60 /* LUTMetadataFormatter.h */,
+				8323E0902189BC2E00851F60 /* ios */,
+				8323E0922189BC2E00851F60 /* LUTFormatter.m */,
+				8323E0932189BC2E00851F60 /* LUTProcessor.h */,
+				8323E0942189BC2E00851F60 /* LUTFormatterDiscreet1DLUT.m */,
+				8323E0952189BC2E00851F60 /* LUTColorTransferFunction.h */,
+				8323E0962189BC2E00851F60 /* LUTPreviewScene.h */,
+				8323E0972189BC2E00851F60 /* LUTFormatterClipster.m */,
+				8323E0982189BC2E00851F60 /* LUTColor.m */,
+				8323E0992189BC2E00851F60 /* LUT3D.h */,
+				8323E09A2189BC2E00851F60 /* LUTFormatterImageBased.m */,
+				8323E09B2189BC2E00851F60 /* LUTFormatterQuantel.h */,
+				8323E09C2189BC2E00851F60 /* GPUImageCocoaLUTFilter.h */,
+				8323E09D2189BC2E00851F60 /* LUTColorSpace.m */,
+				8323E09E2189BC2E00851F60 /* LUTFormatterOLUT.h */,
+				8323E09F2189BC2E00851F60 /* LUTFormatterFSIDAT.m */,
+				8323E0A02189BC2E00851F60 /* CocoaLUT.h */,
+				8323E0A12189BC2E00851F60 /* LUT.h */,
+				8323E0A22189BC2E00851F60 /* LUTFormatterNucodaCMS.m */,
+				8323E0A32189BC2E00851F60 /* LUTColorSpaceWhitePoint.m */,
+				8323E0A42189BC2E00851F60 /* LUTHelper.h */,
+				8323E0A52189BC2E00851F60 /* LUTFormatterDaVinciDAVLUT.m */,
+				8323E0A62189BC2E00851F60 /* LUTRecipe.h */,
+				8323E0A72189BC2E00851F60 /* LUTFormatterUnwrappedTexture.h */,
+				8323E0A82189BC2E00851F60 /* LUTFormatterResolveDAT.h */,
+				8323E0A92189BC2E00851F60 /* LUTFormatterILUT.h */,
+				8323E0AA2189BC2E00851F60 /* LUTAction.h */,
+				8323E0AB2189BC2E00851F60 /* LUTFormatter3DL.m */,
+				8323E0AC2189BC2E00851F60 /* LUTFormatterHaldCLUT.h */,
+				8323E0AD2189BC2E00851F60 /* LUT1D.m */,
+				8323E0AE2189BC2E00851F60 /* LUTFormatterMatchLight.h */,
+				8323E0AF2189BC2E00851F60 /* LUTFormatter.h */,
+				8323E0B02189BC2E00851F60 /* LUTMetadataFormatter.m */,
+				8323E0B12189BC2E00851F60 /* LUTFormatterArriLook.m */,
+				8323E0B22189BC2E00851F60 /* LUTReverser.h */,
+				8323E0B32189BC2E00851F60 /* LUTFormatterCube.m */,
+				8323E0B42189BC2E00851F60 /* LUTFormatterCMSTestPattern.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8323E0902189BC2E00851F60 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				8323E0912189BC2E00851F60 /* .gitkeep */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		8323E0DE2189CF1200851F60 /* LUTs */ = {
+			isa = PBXGroup;
+			children = (
+				8323DFE82189A5BF00851F60 /* FGCineBasic.cube */,
+				8323E0DF2189CFEE00851F60 /* FG_CineDrama.cube */,
+				8323E0E02189CFEE00851F60 /* FG_CineTeal&Orange2.cube */,
+			);
+			path = LUTs;
+			sourceTree = "<group>";
+		};
+		83649C382188BDD70084F630 /* VideoProccessing */ = {
+			isa = PBXGroup;
+			children = (
+				83649C332188A0B60084F630 /* VideoComposer.h */,
+				83649C342188A0B60084F630 /* VideoComposer.m */,
+				83649C2E218894260084F630 /* VideoEditor.h */,
+				83649C2F218894260084F630 /* VideoEditor.m */,
+				8323DFE521899EE700851F60 /* FilterManager.h */,
+				8323DFE621899EE700851F60 /* FilterManager.m */,
+			);
+			path = VideoProccessing;
+			sourceTree = "<group>";
+		};
+		83649C392188BE120084F630 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				831E292F21886B1B00A7D06C /* ViewController.h */,
+				831E293021886B1B00A7D06C /* ViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		83649C3A2188BE1A0084F630 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8323E0DE2189CF1200851F60 /* LUTs */,
+				83649C362188BD340084F630 /* VideoFile.mp4 */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		831E292821886B1B00A7D06C /* VideoSlicer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 831E293F21886B1D00A7D06C /* Build configuration list for PBXNativeTarget "VideoSlicer" */;
+			buildPhases = (
+				1821AC44F63905C6B224E0F5 /* [CP] Check Pods Manifest.lock */,
+				831E292521886B1B00A7D06C /* Sources */,
+				831E292621886B1B00A7D06C /* Frameworks */,
+				831E292721886B1B00A7D06C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoSlicer;
+			productName = VideoSlicer;
+			productReference = 831E292921886B1B00A7D06C /* VideoSlicer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		831E292121886B1B00A7D06C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = companyName;
+				TargetAttributes = {
+					831E292821886B1B00A7D06C = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 831E292421886B1B00A7D06C /* Build configuration list for PBXProject "VideoSlicer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 831E292021886B1B00A7D06C;
+			productRefGroup = 831E292A21886B1B00A7D06C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				831E292821886B1B00A7D06C /* VideoSlicer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		831E292721886B1B00A7D06C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831E293921886B1D00A7D06C /* LaunchScreen.storyboard in Resources */,
+				83649C372188BD340084F630 /* VideoFile.mp4 in Resources */,
+				8323E0E22189CFEE00851F60 /* FG_CineTeal&Orange2.cube in Resources */,
+				8323E0E12189CFEE00851F60 /* FG_CineDrama.cube in Resources */,
+				831E293621886B1D00A7D06C /* Assets.xcassets in Resources */,
+				8323DFE92189A5BF00851F60 /* FGCineBasic.cube in Resources */,
+				831E293421886B1B00A7D06C /* Main.storyboard in Resources */,
+				8323E0CC2189BC2E00851F60 /* .gitkeep in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1821AC44F63905C6B224E0F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VideoSlicer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		831E292521886B1B00A7D06C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83649C30218894260084F630 /* VideoEditor.m in Sources */,
+				8323E0B92189BC2E00851F60 /* LUTPreviewScene.m in Sources */,
+				8323E0CE2189BC2E00851F60 /* LUTFormatterDiscreet1DLUT.m in Sources */,
+				8323E0CD2189BC2E00851F60 /* LUTFormatter.m in Sources */,
+				8323E0C42189BC2E00851F60 /* LUTFormatterHaldCLUT.m in Sources */,
+				8323E0DB2189BC2E00851F60 /* LUTFormatterCube.m in Sources */,
+				8323E0BB2189BC2E00851F60 /* LUTProcessor.m in Sources */,
+				8323E0CB2189BC2E00851F60 /* LUTReverser.m in Sources */,
+				8323E0D22189BC2E00851F60 /* LUTColorSpace.m in Sources */,
+				8323E0CA2189BC2E00851F60 /* LUTFormatterCMSTestPattern.m in Sources */,
+				8323E0D82189BC2E00851F60 /* LUT1D.m in Sources */,
+				8323E0D52189BC2E00851F60 /* LUTColorSpaceWhitePoint.m in Sources */,
+				8323E0D42189BC2E00851F60 /* LUTFormatterNucodaCMS.m in Sources */,
+				83649C352188A0B60084F630 /* VideoComposer.m in Sources */,
+				831E293121886B1B00A7D06C /* ViewController.m in Sources */,
+				8323E0B62189BC2E00851F60 /* LUTFormatterQuantel.m in Sources */,
+				8323E0D62189BC2E00851F60 /* LUTFormatterDaVinciDAVLUT.m in Sources */,
+				8323E0B72189BC2E00851F60 /* GPUImageCocoaLUTFilter.m in Sources */,
+				8323E0C82189BC2E00851F60 /* LUTFormatterResolveDAT.m in Sources */,
+				8323E0DA2189BC2E00851F60 /* LUTFormatterArriLook.m in Sources */,
+				8323DFE721899EE700851F60 /* FilterManager.m in Sources */,
+				8323E0B82189BC2E00851F60 /* LUT3D.m in Sources */,
+				8323E0D32189BC2E00851F60 /* LUTFormatterFSIDAT.m in Sources */,
+				8323E0BD2189BC2E00851F60 /* LUT.m in Sources */,
+				8323E0C92189BC2E00851F60 /* LUTRecipe.m in Sources */,
+				8323E0C32189BC2E00851F60 /* LUTFormatterMatchLight.m in Sources */,
+				8323E0C52189BC2E00851F60 /* LUTAction.m in Sources */,
+				8323E0D72189BC2E00851F60 /* LUTFormatter3DL.m in Sources */,
+				8323E0BA2189BC2E00851F60 /* LUTColorTransferFunction.m in Sources */,
+				8323E0C72189BC2E00851F60 /* LUTFormatterUnwrappedTexture.m in Sources */,
+				8323E0D92189BC2E00851F60 /* LUTMetadataFormatter.m in Sources */,
+				8323E0B52189BC2E00851F60 /* LUTFormatterOLUT.m in Sources */,
+				8323E0D02189BC2E00851F60 /* LUTColor.m in Sources */,
+				8323E0C62189BC2E00851F60 /* LUTFormatterILUT.m in Sources */,
+				8323E0D12189BC2E00851F60 /* LUTFormatterImageBased.m in Sources */,
+				8323E0CF2189BC2E00851F60 /* LUTFormatterClipster.m in Sources */,
+				831E293C21886B1D00A7D06C /* main.m in Sources */,
+				831E292E21886B1B00A7D06C /* AppDelegate.m in Sources */,
+				8323E0BC2189BC2E00851F60 /* LUTHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		831E293221886B1B00A7D06C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				831E293321886B1B00A7D06C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		831E293721886B1D00A7D06C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				831E293821886B1D00A7D06C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		831E293D21886B1D00A7D06C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		831E293E21886B1D00A7D06C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		831E294021886B1D00A7D06C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE677E8BB216D2F432FE0D75 /* Pods-VideoSlicer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32NXMZVVF5;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VideoSlicer/VideoSlicer-PrefixHeader.pch";
+				INFOPLIST_FILE = VideoSlicer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sh.VideoSlicer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		831E294121886B1D00A7D06C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D2289D97B0CF0C6273737D8 /* Pods-VideoSlicer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32NXMZVVF5;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VideoSlicer/VideoSlicer-PrefixHeader.pch";
+				INFOPLIST_FILE = VideoSlicer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sh.VideoSlicer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		831E292421886B1B00A7D06C /* Build configuration list for PBXProject "VideoSlicer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				831E293D21886B1D00A7D06C /* Debug */,
+				831E293E21886B1D00A7D06C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		831E293F21886B1D00A7D06C /* Build configuration list for PBXNativeTarget "VideoSlicer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				831E294021886B1D00A7D06C /* Debug */,
+				831E294121886B1D00A7D06C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 831E292121886B1B00A7D06C /* Project object */;
+}

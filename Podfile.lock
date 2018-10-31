@@ -1,0 +1,24 @@
+PODS:
+  - M13OrderedDictionary (1.1.0)
+  - RegExCategories (1.0)
+  - XMLDictionary (1.4.1)
+
+DEPENDENCIES:
+  - M13OrderedDictionary
+  - RegExCategories (~> 1.0)
+  - XMLDictionary
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - M13OrderedDictionary
+    - RegExCategories
+    - XMLDictionary
+
+SPEC CHECKSUMS:
+  M13OrderedDictionary: 6e157fe9c82aa6b3cd7198f5c5c30c7a6834c4a6
+  RegExCategories: e68befacacd5bda853c88f70ec745cb2d0cfb89c
+  XMLDictionary: fa07b6ff422b3a91d47a5de9bc82e3fc04fbd167
+
+PODFILE CHECKSUM: 7b836b33981160c657d37ad476e00a74ce487ae7
+
+COCOAPODS: 1.5.3
