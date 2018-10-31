@@ -101,7 +101,7 @@
     __weak typeof(self) weakSelf = self;
     __block BOOL isFilterEnabled = YES;
     AVVideoComposition* videoComposition = [AVVideoComposition videoCompositionWithAsset:asset applyingCIFiltersWithHandler:^(AVAsynchronousCIImageFilteringRequest *request){
-        if (isFilterEnabled) {
+        if (!isFilterEnabled) {
             [request finishWithImage:request.sourceImage context:nil];
             return;
         }
